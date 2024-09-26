@@ -75,3 +75,60 @@ if (userChoice === computerChoice) {
 } else {
   console.log("Invalid entry, try again");
 }
+
+
+// Fucntions
+// function are used to run snippets of code
+
+
+
+let dolphinsScore1 = 97;
+let dolphinsScore2 = 112;
+let dolphinsScore3 = 101;
+
+let pandasScore1 = 109;
+let pandasScore2 = 95;
+let pandasScore3 = 123;
+
+let AverageDolphinScore =
+  (dolphinsScore1 + dolphinsScore2 + dolphinsScore3) / 3;
+
+console.log(AverageDolphinScore);
+
+let AveragePandalScore = (pandasScore1 + pandasScore2 + pandasScore3) / 3;
+
+console.log(AveragePandalScore);
+
+if (AverageDolphinScore > AveragePandalScore) {
+  console.log("Dolphin wins");
+} else if (AverageDolphinScore < AveragePandalScore) {
+  console.log("Pandal wins");
+} else {
+  console.log("Its a Draw");
+}
+
+let minScore = 100;
+
+if (
+  AverageDolphinScore > AveragePandalScore &&
+  AverageDolphinScore >= minScore
+) {
+  console.log("Dolphin wins");
+} else if (
+  AverageDolphinScore < AveragePandalScore &&
+  AveragePandalScore >= minScore
+) {
+  console.log("Pandal wins");
+} else {
+  console.log("Nobody wins");
+}
+
+if (
+  AverageDolphinScore === AveragePandalScore &&
+  AverageDolphinScore >= minScore &&
+  AveragePandalScore >= minScore
+) {
+  console.log("its a Draw");
+} else {
+  console.log("No team wins the trophy");
+}

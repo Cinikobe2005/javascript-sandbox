@@ -20,7 +20,7 @@ console.log(sum);
 // while (initializer; (condition){
 //  increment
 // }
-
+// continue and break
 let y = 0;
 while (y <= 5) {
     // perform action
