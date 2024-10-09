@@ -196,5 +196,7 @@ const arr2 = [5, 6, 7, 9, 13, 500, 200, 120];
 const theIndexIs = arr2.findIndex((num) => num > 100);
 console.log(theIndexIs);
 
+// localCompare compare strings together 
+
 
 
